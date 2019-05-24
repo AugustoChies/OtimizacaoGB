@@ -3,8 +3,13 @@
 #define EXIT_FAILURE -1
 #define EXIT_SUCCESS 0
 
+Object cubo;
+
+
 int main() {
 
+	cubo.readobj("uvmappedcow.obj");
+	//cubo.setupMesh();
 	System system;
 
 	if ( system.GLFWInit() != 0 ){

@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <chrono>
 #include <math.h>
+#include "Object.h"
 
 // External Libs
 #include <GL\glew.h>
